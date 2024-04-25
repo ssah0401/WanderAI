@@ -21,6 +21,6 @@ solution = AIPoweredSolution(data_path)
 solution.preprocess_data()
 solution.build_model()
 solution.train_model()
-input_text = "I want to plan a trip to Europe in July with a budget of $2000."
+input_text = "I want to plan a trip to TajMahal, India  in July with a budget of Rs 5000."
 recommendation = solution.generate_recommendations(input_text)
 print(recommendation)
